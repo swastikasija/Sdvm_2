@@ -20,3 +20,4 @@ Shery.makeMagnet(".hero-content h1" /* Element to target.*/, {
   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
   duration: 1,
 });
+console.log("Hello World");
