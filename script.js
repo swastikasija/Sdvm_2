@@ -15,8 +15,7 @@ Shery.textAnimate(".hero-content p", {
   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
   multiplier: 0.1,
 });
-Shery.makeMagnet(".hero-content h1" /* Element to target.*/, {
-  //Parameters are optional.
+Shery.makeMagnet(".hero-content h1", {
   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
   duration: 1,
 });
