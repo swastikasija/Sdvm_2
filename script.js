@@ -41,8 +41,4 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-scrollbar',
   },
 });
-
-Shery.imageEffect(".t img", {
-  style: 4,
-  debug: true,
-})
+console.log("Hello World");
