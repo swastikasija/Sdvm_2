@@ -51,4 +51,3 @@ Shery.hoverWithMediaCircle(".media" /* Element to target.*/, {
   // images: ["image1.jpg", "image2.jpg", "image3.jpg"] /*OR*/,
   videos: ["sdvm1.mp4"],
 });
-console.log("Hello world");
