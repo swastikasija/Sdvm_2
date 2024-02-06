@@ -39,5 +39,15 @@ Shery.imageMasker(".mask-target", {
   mouseFollower: true,
   text: "SDVM-CITY",
   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 0.5,
+});
+
+Shery.makeMagnet(".magnet", {
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
   duration: 1,
+});
+
+Shery.hoverWithMediaCircle(".media" /* Element to target.*/, {
+  // images: ["image1.jpg", "image2.jpg", "image3.jpg"] /*OR*/,
+  videos: ["sdvm1.mp4"],
 });

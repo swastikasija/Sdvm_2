@@ -118,7 +118,7 @@ canvas {
   color: #00004a;
   font-size: 3rem;
   font-weight: bolder;
-  
+
 }
 
 #particles-js {
@@ -168,10 +168,6 @@ canvas {
   border-radius: 0 0 3px 3px;
 }
 
-footer {
-  text-align: center;
-}
-
 .photo-section>h1 {
   font-size: 3rem;
   text-align: center;
@@ -182,4 +178,36 @@ footer {
 .swiper {
   width: 80%;
   height: 90vh;
+}
+
+.reach-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.reach-us>h1 {
+  margin-top: 100px;
+  text-align: center;
+  color: #030388;
+  font-size: 3rem;
+}
+
+.reach-icons>i {
+  color: #00004a;
+  font-size: 5rem;
+  margin-bottom: 100px;
+}
+
+footer {
+  margin-block: 30px;
+  text-align: center;
+}
+
+.insta {
+  color: blueviolet;
+}
+
+.yt {
+  color: red;
 }
