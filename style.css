@@ -34,6 +34,26 @@ nav>.right-section>ul {
   gap: 30px;
   justify-content: space-evenly;
 }
+nav>.right-section>ul>li{
+  list-style-type: none;
+  position: relative;
+  cursor: pointer;
+}
+
+nav>.right-section>ul>li::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0%;
+  background-color: #0c1111;
+  transition: all 0.3s ease-in;
+}
+
+nav>.right-section>ul>li:hover::after{
+  width: 90%;
+}
 
 .hero {
   /* width: 100vw; */
