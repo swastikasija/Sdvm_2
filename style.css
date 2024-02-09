@@ -34,13 +34,14 @@ nav>.right-section>ul {
   gap: 30px;
   justify-content: space-evenly;
 }
-nav>.right-section>ul>li{
+
+nav>.right-section>ul>li {
   list-style-type: none;
   position: relative;
   cursor: pointer;
 }
 
-nav>.right-section>ul>li::after{
+nav>.right-section>ul>li::after {
   content: "";
   position: absolute;
   left: 0;
@@ -51,7 +52,7 @@ nav>.right-section>ul>li::after{
   transition: all 0.3s ease-in;
 }
 
-nav>.right-section>ul>li:hover::after{
+nav>.right-section>ul>li:hover::after {
   width: 90%;
 }
 
@@ -234,4 +235,24 @@ footer {
 
 block {
   color: blueviolet;
+}
+
+.principal-section {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 30px;
+}
+
+.principal-section>.left-section {
+}
+
+.principal-section>.left-section>h1 {
+  margin-bottom: 50px;
+}
+
+.principal-section>.right-section>img {
+  width: 509px;
+  height: 336px;
 }

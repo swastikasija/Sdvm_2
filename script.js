@@ -55,3 +55,10 @@ Shery.hoverWithMediaCircle(".media" /* Element to target.*/, {
   // images: ["image1.jpg", "image2.jpg", "image3.jpg"] /*OR*/,
   videos: ["sdvm1.mp4"],
 });
+
+Shery.imageMasker(".right-section img", {
+  mouseFollower: true,
+  text: "Shivani-Kandola",
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 0.5,
+});
