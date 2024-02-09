@@ -246,8 +246,7 @@ block {
   margin-inline: 30px;
 }
 
-.principal-section>.left-section {
-}
+.principal-section>.left-section {}
 
 .principal-section>.left-section>h1 {
   margin-bottom: 50px;
@@ -256,4 +255,8 @@ block {
 .principal-section>.right-section>img {
   width: 509px;
   height: 336px;
+}
+
+a {
+  text-decoration: none;
 }
