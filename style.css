@@ -137,7 +137,8 @@ canvas {
 
 .card h1 {
   color: #00004a;
-  font-size: 3rem;
+  font-weight: lighter;
+  /* font-size: 3rem; */
   font-weight: bolder;
 
 }
