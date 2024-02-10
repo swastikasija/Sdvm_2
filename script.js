@@ -28,7 +28,7 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-pagination',
   },
   autoplay: {
-    delay: 5000, // Delay between transitions in milliseconds (ms)
+    delay: 3000, // Delay between transitions in milliseconds (ms)
     disableOnInteraction: false, // Set to false if you want autoplay to continue even when user interacts with swiper
   },
   navigation: {
